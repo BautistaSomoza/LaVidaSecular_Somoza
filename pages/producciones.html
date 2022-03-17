@@ -10,47 +10,84 @@
     <link rel="stylesheet" href="estilos_bootstrap.css">
 </head>
 <body>
-    <header class="barramenu">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" aria-current="page" href="#">Producciones</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" href="../index.html">La Vida Secular</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="./pages/fechas.html">Fechas</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="./pages/canciones.html">Canciones</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="./pages/secularidad.html">Secularidad</a>
-                  </li>
-                </ul>
-              </div>
+  <div class="container">
+    <header id="topeDeSitio">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" aria-current="page" href="#">Producciones</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="../index.html">La Vida Secular</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="./pages/fechas.html">Fechas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="./pages/canciones.html">Canciones</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="./pages/secularidad.html">Secularidad</a>
+                </li>
+              </ul>
             </div>
-          </nav>
+          </div>
+        </nav>
 
     </header>
-    
-    <h1>Producciones</h1>
-    
+  
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../img/prod_1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../img/prod_2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../img/prod_3.jpg" class="d-block w-100" alt="...">
+      </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+          Rerum dolorum quos, esse repudiandae placeat debitis unde assumenda tempora nulla nobis in officia nemo error iste?</p>
+      </div>
+
+    </div>
+  
     <footer>
-        <div>
-            <nav class="navbar navbar-light bg-light">
-                <form class="container-fluid justify-content-start">
-                    <button class="btn btn-outline-success me-2" type="button" href=><a href="https://www.instagram.com/lavidasecular/">Instagram</a></button>
-                    <button class="btn btn-outline-success me-2" type="button"><a href="https://www.youtube.com/channel/UCco1UYPpKrRcb2YmDHQdX-Q/featured">Youtube</a></button>
-                    <button class="btn btn-outline-success me-2" type="button"><a href="https://open.spotify.com/artist/3pqQjoEHW0bxuiS3CKQMJ6">Spotify</a></button>
-                    <button class="btn btn-sm btn-outline-secondary" type="button"><a href="#topeDeSitio">TOP</a></button>
-                </form>
-            </nav>
-        </div>
+      <div>
+          <nav class="navbar navbar-light bg-light">
+              <form class="container-fluid justify-content-start">
+                  <button class="btn btn-outline-success me-2" type="button" href=><a href="https://www.instagram.com/lavidasecular/">Instagram</a></button>
+                  <button class="btn btn-outline-success me-2" type="button"><a href="https://www.youtube.com/channel/UCco1UYPpKrRcb2YmDHQdX-Q/featured">Youtube</a></button>
+                  <button class="btn btn-outline-success me-2" type="button"><a href="https://open.spotify.com/artist/3pqQjoEHW0bxuiS3CKQMJ6">Spotify</a></button>
+                  <button class="btn btn-sm btn-outline-secondary" type="button"><a href="#topeDeSitio">TOP</a></button>
+              </form>
+          </nav>
+      </div>
     </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+    crossorigin="anonymous"></script>
 </body>
 </html>

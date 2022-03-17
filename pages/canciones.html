@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="estilos_bootstrap.css">
 </head>
 <body>
-    <div class="grilla_canciones">
+    <div class="container">
         <header id="topeDeSitio">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
@@ -44,9 +44,48 @@
 
         <section>
             <div class="container">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+              <h1>Letras de Canciones</h1>
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Cancion Primera
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis alias beatae quaerat quae cum nostrum dignissimos? Fugiat ipsum obcaecati deserunt necessitatibus. Error facilis quisquam, voluptatum consequuntur voluptates accusamus ipsam ut quibusdam eius tenetur nemo inventore 
+                        modi laborum sed quaerat animi aperiam sit consequatur beatae deserunt fuga reprehenderit! Ipsa, tenetur fuga.</p>   
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Cancion Segunda
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis alias beatae quaerat quae cum nostrum dignissimos? Fugiat ipsum obcaecati deserunt necessitatibus. Error facilis quisquam, voluptatum consequuntur voluptates accusamus ipsam ut quibusdam eius tenetur nemo inventore 
+                        modi laborum sed quaerat animi aperiam sit consequatur beatae deserunt fuga reprehenderit! Ipsa, tenetur fuga.</p>                    
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Cancion Tercera
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis alias beatae quaerat quae cum nostrum dignissimos? Fugiat ipsum obcaecati deserunt necessitatibus. Error facilis quisquam, voluptatum consequuntur voluptates accusamus ipsam ut quibusdam eius tenetur nemo inventore 
+                        modi laborum sed quaerat animi aperiam sit consequatur beatae deserunt fuga reprehenderit! Ipsa, tenetur fuga.</p>   
+                    </div>
+                  </div>
+                </div>
+              </div> 
             </div>
 
         </section>
@@ -66,6 +105,8 @@
         </footer>
 
     </div>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+    crossorigin="anonymous"></script>
 </body>
 </html>
