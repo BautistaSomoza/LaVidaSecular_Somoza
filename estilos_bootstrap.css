@@ -1,4 +1,6 @@
-
+body{
+    background-color: beige;
+}
 .ImagenContenido_cajas{
     max-width: 50%;
     max-width: 50%;
@@ -14,7 +16,9 @@ main div div div{
     margin-top: 2%;
     margin-bottom: 2%;
 }
-
+.fondo-navbar{
+    background-color: #decfac;
+}
 @media(max-width: 480px){
     .cuerpoSuperior{
         display: none;
