@@ -15,7 +15,6 @@ main div div div{
     margin-bottom: 2%;
 }
 
-
 @media(max-width: 480px){
     .cuerpoSuperior{
         display: none;
