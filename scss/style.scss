@@ -1,12 +1,11 @@
 /*Partials*/
 @import "../base/colores";
 
+@import "../componentes/header";
+@import "../componentes/footer";
+
 body{
     background-color: $color-body;
-}
-
-.fondo-navbar{
-    background-color: $color-navbar;
 }
 
 .ImagenContenido_cajas{
