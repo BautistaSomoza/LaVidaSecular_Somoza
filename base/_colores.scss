@@ -1,6 +1,12 @@
-$color-body: beige;
-$color-navbar:#decfac;
+$colores:(
+    color-body: beige,
+    color-navbar:#decfac,
+    color-barra-light: lighten(#decfac, 10%),
+    color-fondo-content:lighten(#decfac,15%),
+);
 
-.acordion__barra--fondo{
-    background-color: lighten($color-navbar, 10%);
-}
+
+
+/*.acordion__barra--fondo{
+    background-color: 
+}*/

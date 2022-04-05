@@ -5,12 +5,15 @@
 @import "../componentes/footer";
 
 body{
-    background-color: $color-body;
+    background-color: map-get($colores,color-body);
 }
 
+@mixin size($max-width,$max-height){
+    max-width:$max-width;
+    max-height:$max-height;
+}
 .ImagenContenido_cajas{
-    max-width: 50%;
-    max-width: 50%;
+    @include size(50%,50%)
 }
 
 main {
@@ -25,9 +28,28 @@ main {
     }            
 }
 
+section{
+    div{
+        div{
+            div{
+                h2{
+                    button{
+                        background-color: map-get($colores,color-barra-light);
+                    }
+                }
+            }
+        }
+    }
+
+}
 .cuerpoSuperior{
     margin-top: 2%;
     margin-bottom: 2%;
+}
+
+.accordion-body--fondo{
+    
+    background-color: map-get($colores,color-fondo-content);
 }
 
 @media(max-width: 480px){

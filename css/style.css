@@ -1,12 +1,10 @@
 /*Partials*/
-.acordion__barra--fondo {
-  background-color: #ede4d0;
-}
-
-.acordion__barra--fondo {
-  background-color: #ede4d0;
-}
-
+/*.acordion__barra--fondo{
+    background-color: 
+}*/
+/*.acordion__barra--fondo{
+    background-color: 
+}*/
 header nav {
   background-color: #decfac;
 }
@@ -14,10 +12,9 @@ header nav div a:hover {
   text-decoration: underline;
 }
 
-.acordion__barra--fondo {
-  background-color: #ede4d0;
-}
-
+/*.acordion__barra--fondo{
+    background-color: 
+}*/
 footer nav {
   background-color: #decfac;
 }
@@ -28,7 +25,7 @@ body {
 
 .ImagenContenido_cajas {
   max-width: 50%;
-  max-width: 50%;
+  max-height: 50%;
 }
 
 main div div div {
@@ -37,9 +34,17 @@ main div div div {
   text-align: justify;
 }
 
+section div div div h2 button {
+  background-color: #ede4d0;
+}
+
 .cuerpoSuperior {
   margin-top: 2%;
   margin-bottom: 2%;
+}
+
+.accordion-body--fondo {
+  background-color: #f4efe3;
 }
 
 @media (max-width: 480px) {

@@ -2,7 +2,7 @@
 
 header{
     nav{
-        background-color: $color-navbar;
+        background-color: map-get($colores,color-navbar);
         div {
             a{
                 &:hover{
